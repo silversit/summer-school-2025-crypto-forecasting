@@ -1,5 +1,5 @@
 # 1 · Clone repository
-$ git clone https://github.com/Marchev-Science/summer-school-2025-crypto-forecasting.git
+$ git clone https://github.com/npenchev88/evolutionary-algorithms.git
 
 $ cd summer-school-2025-crypto-forecasting
 
