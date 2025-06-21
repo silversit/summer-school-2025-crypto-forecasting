@@ -1,3 +1,23 @@
+# 1 · Clone repository
+$ git clone https://github.com/Marchev-Science/summer-school-2025-crypto-forecasting.git
+
+$ cd summer-school-2025-crypto-forecasting
+
+# 2 · Create & activate virtual env (POSIX)
+$ python3 -m venv .venv
+
+$ source .venv/bin/activate   # (Windows PowerShell → .venv\Scripts\Activate.ps1)
+
+# 3 · Upgrade pip & install dependencies
+(.venv) $ pip install --upgrade pip
+
+(.venv) $ pip install -r requirements.txt
+
+# 4 · Add Jupyter kernel (one‑off)
+(.venv) $ python -m ipykernel install --user \
+              --name ss25-crypto --display-name "SS25 Crypto"
+
+
 # CASE: THE A.I. CRYPTO TRADER
 
 Authors: Angel Marchev, Jr., Alexander Efremov, Petar Nikolov, Pavel

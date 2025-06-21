@@ -1,0 +1,4 @@
+numpy==2.3.1
+pandas==2.2.2
+ipykernel==6.29.3
+jupyterlab==4.2.1
